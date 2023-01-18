@@ -1,4 +1,4 @@
-#BIOS configurations
+# BIOS configurations
 ## List of BIOS configurations which should be modified
 Item | Default value | To be modified | Can be modified on BIOS menu ?
 -------------------- | ------- | -------------- | -------
