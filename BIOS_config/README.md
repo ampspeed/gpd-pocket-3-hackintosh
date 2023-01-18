@@ -25,7 +25,7 @@ The small hole on the rear of the GPD Pocket 3 beside to the module slot is BIOS
 
 ## Appendix
 
-`bios_rom` directory contains BIOS dump data as following.
+[bios_rom](bios_rom) contains BIOS dump data as following.
 
 * `gpd3_bios_default.bin` BIOS ROM dump by chipsec.
 * `Setup_body.fbd` Extracted IFR data from `gpd3_bios_default.bin` by UEFITool
