@@ -1,5 +1,5 @@
-#BIOS configuration
-## List of BIOS configuration which should be modified
+#BIOS configurations
+## List of BIOS configurations which should be modified
 Item | Default value | To be modified | Can be modified on BIOS menu ?
 -------------------- | ------- | -------------- | -------
 Secure Boot | Enables | Disabled | Yes
@@ -22,3 +22,11 @@ Some required BIOS configuration items are not accessible with BIOS menu of GPD 
 
 ## Reset BIOS in case of any trouble
 The small hole on the rear of the GPD Pocket 3 beside to the module slot is BIOS reset button.
+
+## Appendix
+
+`bios_rom` directory contains BIOS dump data as following.
+
+* `gpd3_bios_default.bin` BIOS ROM dump by chipsec.
+* `Setup_body.fbd` Extracted IFR data from `gpd3_bios_default.bin` by UEFITool
+* `setup.txt` Extracted IFR config from `Setup_body.fbd` by ifrextract
