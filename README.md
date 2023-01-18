@@ -4,7 +4,7 @@
 ## Overview
 This is a bare minimum configuration set for GPD Pocket 3 to boot some OS.
 
-##Boot environment
+## Boot environment
 * OpenCore 0.8.5
 
 ## Status
